@@ -37,7 +37,7 @@ except requests.exceptions.RequestException as e:
 
 def train_ai_model(data):
     # Initialize the Generative AI model
-    prompt = "your are am expert in analyzing the data and extracting fields from a jason object. for the given json data "+ json.dumps(data) +" extract syntheticMetrics and syntheticMetrics values from detail and store in a csv file" 
+    prompt = "your are am expert in analyzing the data and extracting fields from a jason object. for the given json data "+ json.dumps(data) +" extract syntheticMetrics and syntheticMetrics values from detail and format it into a CSV structure" 
     client = genai.Client(api_key=os.getenv("SECRET_KEY"))
     # Generate content using the model
     try:
@@ -49,11 +49,23 @@ def train_ai_model(data):
                 max_output_tokens=1024,
                 temperature=0.3,
             )
-        )    
+        )
+
+        response2 = client.models.generate_content(
+            model='gemini-2.0-flash-001',
+            contents='high',
+            config=types.GenerateContentConfig(
+                system_instruction="your are am expert in analyzing the data and extracting fields from a jason object. for the given json data "+ json.dumps(data) +" extract errorDetail dimension type name and dimension name and format it into a CSV structure",
+                max_output_tokens=1024,
+                temperature=0.3,
+            )
+        )
+
         jsonl_file = "summarized_data.csv"
 
         with open(jsonl_file, 'w') as f:
-              f.write(response.text + "\n")             
+              f.write(response.text + "\n")    
+              f.write(response2.text + "\n")         
         print(f"Data has been fetched, summarized, and saved to {jsonl_file}.")
     except Exception as e:
         print(f"An error occurred: {e}")
