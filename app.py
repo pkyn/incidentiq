@@ -14,8 +14,13 @@ key = os.getenv("SECRET_KEY")
 if not key:
     raise ValueError("API key not found. Please set the SECRET_KEY environment variable.")
 
-api_url = "https://ioqa.catchpoint.com/api/v4/tests/explorer/favoritechart/data/154325?pageNumber=1&pageSize=100"
-bearer_token = "72F3A8D7F05CABC27562AC315CFFDDB75D1D7482E1EB9843E6D45D113ED0C7BD"
+api_url = os.getenv("API_URL")
+if not api_url:
+    raise ValueError("API URL not found. Please set the API_URL environment variable.")
+
+bearer_token = os.getenv("API_TOKEN")
+if not bearer_token:
+    raise ValueError("Bearer token not found. Please set the API_TOKEN environment variable.")
 
 headers = {
 "Authorization": f"Bearer {bearer_token}",
