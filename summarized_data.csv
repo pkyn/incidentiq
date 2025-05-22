@@ -1,30 +1,26 @@
 ```csv
-dateTime,HostIP,TestTime,AvailabilityPercent,PingPacketLossPercent,RoundtripTime,Jitter,TraceRoutePacketLossPercent,Cities,Countries
-2025-05-21T15:09:44Z,[Unknown],,,,,,
-2025-05-21T15:41:44Z,64.147.162.19,58.6,100.0,0.0,58.6,0.25,0.0,,,
-2025-05-21T15:54:41Z,[Unknown],,,,,,
-2025-05-21T16:17:30Z,[Unknown],,,,,,
-2025-05-21T16:26:41Z,64.147.162.19,64.0,100.0,0.0,64.0,0.0,0.0,,,
-2025-05-21T16:49:12Z,172.21.166.19,0.0,100.0,0.0,0.0,0.0,0.0,,,
-2025-05-21T17:02:10Z,[Unknown],,,,,,
-2025-05-21T17:24:40Z,[Unknown],,,,,,
-2025-05-21T17:35:22Z,64.147.162.19,36.0,100.0,0.0,36.0,0.0,0.0,,,
-2025-05-21T18:09:41Z,[Unknown],,,,,,
-2025-05-21T18:41:45Z,64.147.162.19,58.0,100.0,0.0,58.0,0.0,0.0,,,
-2025-05-21T18:54:42Z,[Unknown],,,,,,
-2025-05-21T19:17:13Z,[Unknown],,,,,,
-2025-05-21T19:26:41Z,64.147.162.19,64.0,100.0,0.0,64.0,0.0,0.0,,,
-2025-05-21T19:49:12Z,172.21.166.19,0.0,100.0,0.0,0.0,0.0,0.0,,,
-2025-05-21T20:02:13Z,[Unknown],,,,,,
-2025-05-21T20:34:14Z,64.147.162.19,36.0,100.0,0.0,36.0,0.0,0.0,,,
-2025-05-21T21:09:40Z,[Unknown],,,,,,
-2025-05-21T21:41:44Z,64.147.162.19,59.2,100.0,0.0,59.2,0.5,0.0,,,
-2025-05-21T21:54:42Z,[Unknown],,,,,,
-2025-05-21T22:17:10Z,[Unknown],,,,,,
-2025-05-21T22:26:42Z,64.147.162.19,60.0,100.0,0.0,60.0,0.0,0.0,,,
-2025-05-21T22:49:11Z,172.21.166.19,0.0,
+dateTime,Node,HostIP,TestTime,AvailabilityPercent,PingPacketLossPercent,RoundtripTime,Jitter,TraceRoutePacketLossPercent,Cities,Countries
+2025-05-21T15:09:44Z,Boston - Verizon - ST,[Unknown],,,,,,,,,,
+2025-05-21T15:41:44Z,Boston - Verizon - ST,64.147.162.19,58.6,100.0,0.0,58.6,0.25,0.0,,,,
+2025-05-21T15:54:41Z,Las Vegas - Canary Linux - OL8 - ST,[Unknown],,,,,,,,,,
+2025-05-21T16:17:30Z,Redhat8 Linux IPv6 Backbone,[Unknown],,,,,,,,,,
+2025-05-21T16:26:41Z,Las Vegas - Canary Linux - OL8 - ST,64.147.162.19,64.0,100.0,0.0,64.0,0.0,0.0,,,,
+2025-05-21T16:49:12Z,Redhat8 Linux IPv6 Backbone,172.21.166.19,0.0,100.0,0.0,0.0,0.0,0.0,,,,
+2025-05-21T17:02:10Z,Seattle - Level3 - Redhat7 - ST,[Unknown],,,,,,,,,,
+2025-05-21T17:24:40Z,Denver - Comcast - ST,[Unknown],,,,,,,,,,
+2025-05-21T17:35:22Z,Seattle - Level3 - Redhat7 - ST,64.147.162.19,36.0,100.0,0.0,36.0,0.0,0.0,,,,
+2025-05-21T18:09:41Z,Boston - Verizon - ST,[Unknown],,,,,,,,,,
+2025-05-21T18:41:45Z,Boston - Verizon - ST,64.147.162.19,58.0,100.0,0.0,58.0,0.0,0.0,,,,
+2025-05-21T18:54:42Z,Las Vegas - Canary Linux - OL8 - ST,[Unknown],,,,,,,,,,
+2025-05-21T19:17:13Z,Redhat8 Linux IPv6 Backbone,[Unknown],,,,,,,,,,
+2025-05-21T19:26:41Z,Las Vegas - Canary Linux - OL8 - ST,64.147.162.19,64.0,100.0,0.0,64.0,0.0,0.0,,,,
+2025-05-21T19:49:12Z,Redhat8 Linux IPv6 Backbone,172.21.166.19,0.0,100.0,0.0,0.0,0.0,0.0,,,,
+2025-05-21T20:02:13Z,Seattle - Level3 - Redhat7 - ST,[Unknown],,,,,,,,,,
+2025-05-21T20:34:14Z,Seattle - Level3 - Redhat7 - ST,64.147.162.19,36.0,100.0,0.0,36.0,0.0,0.0,,,,
+2025-05-21T21:09:40Z,Boston - Verizon - ST,[Unknown],,,,,,,,,,
+2025-05-21T21:41:44Z,Boston - Verizon - ST,64.147.162.19,59.2,100.0
 ```csv
-dateTime,type_name,dimension_name
+dateTime,dimension_type_name,dimension_name
 2025-05-22T14:05:23Z,Time,20250522140523
 2025-05-22T14:05:23Z,Test,PingICMPFailure
 2025-05-22T14:05:23Z,Step,Step # 1
@@ -57,5 +53,4 @@ dateTime,type_name,dimension_name
 2025-05-22T12:09:40Z,Step,Step # 1
 2025-05-22T12:09:40Z,Node,Boston - Verizon - ST
 2025-05-22T12:09:40Z,HostIP,[Unknown]
-2025-05-22T12:09:40Z,Page,notsqa.3genlabs.net
-
+2025-05-22T12:09:40Z,Page,notsqa.3genlabs.
