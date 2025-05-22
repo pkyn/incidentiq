@@ -50,7 +50,7 @@ def train_ai_model(data):
                 temperature=0.3,
             )
         )    
-        jsonl_file = "summarized_data.json"
+        jsonl_file = "summarized_data.csv"
 
         with open(jsonl_file, 'w') as f:
               f.write(response.text + "\n")             
