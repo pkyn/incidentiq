@@ -41,7 +41,7 @@ def train_ai_model(data):
     #metrics, dimensions id and name where id is 16 from responseItems then dimensions id and name where id is 16 or 1 and values from items. include only Test Time (ms), % Ping Packet Loss, % Availability,"
     #"Jitter, Time to Leave metrics in the result and result should be formatted to a csv file which contains only items
 
-    prompt = "your are an expert in analyzing the data and extracting fields from a jason. for the given json data "+ json.dumps(data) +" extract dimensions, metrics and values from items. include dimensions id and name where id is 16 or 1. metrics array has the metric name and values arrays has its value. Include only following metrics in the result: Test Time (ms), % Availability, % Ping Packet Loss, Jitter (ms), Ping Round Trip (ms)"
+    prompt = "your are an expert in analyzing the data and extracting fields from a jason. you have the given json data: "+ json.dumps(data) +" extract dimensions id and name where id is 16 and 1 and metrics array and also values from items. metrics array has the metric name and values arrays has metric value The index from metric array will match position in values array. Include only following metrics in the result: Test Time (ms), % Availability, % Ping Packet Loss, Jitter (ms), Ping Round Trip (ms)"
     client = genai.Client(api_key=os.getenv("SECRET_KEY"))
     # Generate content using the model
     try:
@@ -61,13 +61,13 @@ def train_ai_model(data):
             model='gemini-2.0-flash-001',
             contents='high',
             config=types.GenerateContentConfig(
-                system_instruction="extract"+ json.dumps(response.text) +" into a CSV structure",
+                system_instruction="extract distinct "+ json.dumps(response.text) +" into a CSV structure",
                 #max_output_tokens=1024,
                 temperature=0.3,
             )
         )
 
-        csv_file = "summarized_data4.csv"
+        csv_file = "summarized_data.csv"
         jsonl_file = "summarized_data_json.jsonl"
 
         with open(csv_file, 'w') as f:
