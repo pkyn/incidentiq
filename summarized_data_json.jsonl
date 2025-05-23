@@ -1,0 +1,1207 @@
+```json
+[
+  {
+    "dateTime": "2025-05-23T05:34:12Z",
+    "dimensions": [
+      {
+        "id": 264155,
+        "name": "PingICMPSuccess"
+      },
+      {
+        "id": 4710,
+        "name": "Seattle - Level3 - Redhat7 - ST"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (ms)",
+        "value": null
+      },
+      {
+        "name": "% Availability",
+        "value": 100.0
+      },
+      {
+        "name": "% Ping Packet Loss",
+        "value": null
+      },
+      {
+        "name": "Jitter (ms)",
+        "value": null
+      },
+      {
+        "name": "Test Time (ms)",
+        "value": 36.0
+      }
+    ]
+  },
+  {
+    "dateTime": "2025-05-23T05:35:13Z",
+    "dimensions": [
+      {
+        "id": 280305,
+        "name": "TracerouteICMPHostSuccess"
+      },
+      {
+        "id": 1791,
+        "name": "Redhat8 Linux IPv6 Backbone"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (ms)",
+        "value": null
+      },
+      {
+        "name": "% Availability",
+        "value": 100.0
+      },
+      {
+        "name": "% Ping Packet Loss",
+        "value": null
+      },
+      {
+        "name": "Jitter (ms)",
+        "value": null
+      },
+      {
+        "name": "Test Time (ms)",
+        "value": 5.0
+      }
+    ]
+  },
+  {
+    "dateTime": "2025-05-23T05:35:13Z",
+    "dimensions": [
+      {
+        "id": 280305,
+        "name": "TracerouteICMPHostSuccess"
+      },
+      {
+        "id": 1791,
+        "name": "Redhat8 Linux IPv6 Backbone"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (ms)",
+        "value": null
+      },
+      {
+        "name": "% Availability",
+        "value": 100.0
+      },
+      {
+        "name": "% Ping Packet Loss",
+        "value": null
+      },
+      {
+        "name": "Jitter (ms)",
+        "value": null
+      },
+      {
+        "name": "Test Time (ms)",
+        "value": 6.67
+      }
+    ]
+  },
+  {
+    "dateTime": "2025-05-23T05:35:13Z",
+    "dimensions": [
+      {
+        "id": 280305,
+        "name": "TracerouteICMPHostSuccess"
+      },
+      {
+        "id": 1791,
+        "name": "Redhat8 Linux IPv6 Backbone"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (ms)",
+        "value": null
+      },
+      {
+        "name": "% Availability",
+        "value": 100.0
+      },
+      {
+        "name": "% Ping Packet Loss",
+        "value": null
+      },
+      {
+        "name": "Jitter (ms)",
+        "value": null
+      },
+      {
+        "name": "Test Time (ms)",
+        "value": 0.0
+      }
+    ]
+  },
+  {
+    "dateTime": "2025-05-23T05:35:13Z",
+    "dimensions": [
+      {
+        "id": 280305,
+        "name": "TracerouteICMPHostSuccess"
+      },
+      {
+        "id": 1791,
+        "name": "Redhat8 Linux IPv6 Backbone"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (ms)",
+        "value": null
+      },
+      {
+        "name": "% Availability",
+        "value": 100.0
+      },
+      {
+        "name": "% Ping Packet Loss",
+        "value": null
+      },
+      {
+        "name": "Jitter (ms)",
+        "value": null
+      },
+      {
+        "name": "Test Time (ms)",
+        "value": 5.0
+      }
+    ]
+  },
+  {
+    "dateTime": "2025-05-23T05:35:13Z",
+    "dimensions": [
+      {
+        "id": 280305,
+        "name": "TracerouteICMPHostSuccess"
+      },
+      {
+        "id": 1791,
+        "name": "Redhat8 Linux IPv6 Backbone"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (ms)",
+        "value": null
+      },
+      {
+        "name": "% Availability",
+        "value": 100.0
+      },
+      {
+        "name": "% Ping Packet Loss",
+        "value": null
+      },
+      {
+        "name": "Jitter (ms)",
+        "value": null
+      },
+      {
+        "name": "Test Time (ms)",
+        "value": 6.0
+      }
+    ]
+  },
+  {
+    "dateTime": "2025-05-23T05:35:13Z",
+    "dimensions": [
+      {
+        "id": 280305,
+        "name": "TracerouteICMPHostSuccess"
+      },
+      {
+        "id": 1791,
+        "name": "Redhat8 Linux IPv6 Backbone"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (ms)",
+        "value": null
+      },
+      {
+        "name": "% Availability",
+        "value": 100.0
+      },
+      {
+        "name": "% Ping Packet Loss",
+        "value": null
+      },
+      {
+        "name": "Jitter (ms)",
+        "value": null
+      },
+      {
+        "name": "Test Time (ms)",
+        "value": 5.0
+      }
+    ]
+  },
+  {
+    "dateTime": "2025-05-23T05:35:13Z",
+    "dimensions": [
+      {
+        "id": 280305,
+        "name": "TracerouteICMPHostSuccess"
+      },
+      {
+        "id": 1791,
+        "name": "Redhat8 Linux IPv6 Backbone"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (ms)",
+        "value": null
+      },
+      {
+        "name": "% Availability",
+        "value": 100.0
+      },
+      {
+        "name": "% Ping Packet Loss",
+        "value": null
+      },
+      {
+        "name": "Jitter (ms)",
+        "value": null
+      },
+      {
+        "name": "Test Time (ms)",
+        "value": 1.0
+      }
+    ]
+  },
+  {
+    "dateTime": "2025-05-23T05:35:13Z",
+    "dimensions": [
+      {
+        "id": 280305,
+        "name": "TracerouteICMPHostSuccess"
+      },
+      {
+        "id": 1791,
+        "name": "Redhat8 Linux IPv6 Backbone"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (ms)",
+        "value": null
+      },
+      {
+        "name": "% Availability",
+        "value": 100.0
+      },
+      {
+        "name": "% Ping Packet Loss",
+        "value": null
+      },
+      {
+        "name": "Jitter (ms)",
+        "value": null
+      },
+      {
+        "name": "Test Time (ms)",
+        "value": 1.0
+      }
+    ]
+  },
+  {
+    "dateTime": "2025-05-23T05:35:13Z",
+    "dimensions": [
+      {
+        "id": 280305,
+        "name": "TracerouteICMPHostSuccess"
+      },
+      {
+        "id": 1791,
+        "name": "Redhat8 Linux IPv6 Backbone"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (ms)",
+        "value": null
+      },
+      {
+        "name": "% Availability",
+        "value": 100.0
+      },
+      {
+        "name": "% Ping Packet Loss",
+        "value": null
+      },
+      {
+        "name": "Jitter (ms)",
+        "value": null
+      },
+      {
+        "name": "Test Time (ms)",
+        "value": 0.0
+      }
+    ]
+  },
+  {
+    "dateTime": "2025-05-23T05:35:13Z",
+    "dimensions": [
+      {
+        "id": 280305,
+        "name": "TracerouteICMPHostSuccess"
+      },
+      {
+        "id": 1791,
+        "name": "Redhat8 Linux IPv6 Backbone"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (ms)",
+        "value": null
+      },
+      {
+        "name": "% Availability",
+        "value": 100.0
+      },
+      {
+        "name": "% Ping Packet Loss",
+        "value": null
+      },
+      {
+        "name": "Jitter (ms)",
+        "value": null
+      },
+      {
+        "name": "Test Time (ms)",
+        "value": 0.67
+      }
+    ]
+  },
+  {
+    "dateTime": "2025-05-23T05:46:14Z",
+    "dimensions": [
+      {
+        "id": 280599,
+        "name": "TracerouteICMPIpAddressFailure"
+      },
+      {
+        "id": 1791,
+        "name": "Redhat8 Linux IPv6 Backbone"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (ms)",
+        "value": null
+      },
+      {
+        "name": "% Availability",
+        "value": 100.0
+      },
+      {
+        "name": "% Ping Packet Loss",
+        "value": null
+      },
+      {
+        "name": "Jitter (ms)",
+        "value": null
+      },
+      {
+        "name": "Test Time (ms)",
+        "value": 0.0
+      }
+    ]
+  },
+  {
+    "dateTime": "2025-05-23T05:46:14Z",
+    "dimensions": [
+      {
+        "id": 280599,
+        "name": "TracerouteICMPIpAddressFailure"
+      },
+      {
+        "id": 1791,
+        "name": "Redhat8 Linux IPv6 Backbone"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (ms)",
+        "value": null
+      },
+      {
+        "name": "% Availability",
+        "value": 100.0
+      },
+      {
+        "name": "% Ping Packet Loss",
+        "value": null
+      },
+      {
+        "name": "Jitter (ms)",
+        "value": null
+      },
+      {
+        "name": "Test Time (ms)",
+        "value": 0.67
+      }
+    ]
+  },
+  {
+    "dateTime": "2025-05-23T05:46:14Z",
+    "dimensions": [
+      {
+        "id": 280599,
+        "name": "TracerouteICMPIpAddressFailure"
+      },
+      {
+        "id": 1791,
+        "name": "Redhat8 Linux IPv6 Backbone"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (ms)",
+        "value": null
+      },
+      {
+        "name": "% Availability",
+        "value": 100.0
+      },
+      {
+        "name": "% Ping Packet Loss",
+        "value": null
+      },
+      {
+        "name": "Jitter (ms)",
+        "value": null
+      },
+      {
+        "name": "Test Time (ms)",
+        "value": 1.0
+      }
+    ]
+  },
+  {
+    "dateTime": "2025-05-23T05:46:14Z",
+    "dimensions": [
+      {
+        "id": 280599,
+        "name": "TracerouteICMPIpAddressFailure"
+      },
+      {
+        "id": 1791,
+        "name": "Redhat8 Linux IPv6 Backbone"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (ms)",
+        "value": null
+      },
+      {
+        "name": "% Availability",
+        "value": null
+      },
+      {
+        "name": "% Ping Packet Loss",
+        "value": null
+      },
+      {
+        "name": "Jitter (ms)",
+        "value": null
+      },
+      {
+        "name": "Test Time (ms)",
+        "value": null
+      }
+    ]
+  },
+  {
+    "dateTime": "2025-05-23T06:04:42Z",
+    "dimensions": [
+      {
+        "id": 280165,
+        "name": "TracerouteICMPIPAddressSuccess"
+      },
+      {
+        "id": 335,
+        "name": "Las Vegas - Canary Linux - OL8 - ST"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (ms)",
+        "value": null
+      },
+      {
+        "name": "% Availability",
+        "value": 100.0
+      },
+      {
+        "name": "% Ping Packet Loss",
+        "value": null
+      },
+      {
+        "name": "Jitter (ms)",
+        "value": null
+      },
+      {
+        "name": "Test Time (ms)",
+        "value": 219.0
+      }
+    ]
+  },
+  {
+    "dateTime": "2025-05-23T06:04:42Z",
+    "dimensions": [
+      {
+        "id": 280165,
+        "name": "TracerouteICMPIPAddressSuccess"
+      },
+      {
+        "id": 335,
+        "name": "Las Vegas - Canary Linux - OL8 - ST"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (ms)",
+        "value": null
+      },
+      {
+        "name": "% Availability",
+        "value": 100.0
+      },
+      {
+        "name": "% Ping Packet Loss",
+        "value": null
+      },
+      {
+        "name": "Jitter (ms)",
+        "value": null
+      },
+      {
+        "name": "Test Time (ms)",
+        "value": 227.0
+      }
+    ]
+  },
+  {
+    "dateTime": "2025-05-23T06:04:42Z",
+    "dimensions": [
+      {
+        "id": 280165,
+        "name": "TracerouteICMPIPAddressSuccess"
+      },
+      {
+        "id": 335,
+        "name": "Las Vegas - Canary Linux - OL8 - ST"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (ms)",
+        "value": null
+      },
+      {
+        "name": "% Availability",
+        "value": 100.0
+      },
+      {
+        "name": "% Ping Packet Loss",
+        "value": null
+      },
+      {
+        "name": "Jitter (ms)",
+        "value": null
+      },
+      {
+        "name": "Test Time (ms)",
+        "value": 210.0
+      }
+    ]
+  },
+  {
+    "dateTime": "2025-05-23T06:04:42Z",
+    "dimensions": [
+      {
+        "id": 280165,
+        "name": "TracerouteICMPIPAddressSuccess"
+      },
+      {
+        "id": 335,
+        "name": "Las Vegas - Canary Linux - OL8 - ST"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (ms)",
+        "value": null
+      },
+      {
+        "name": "% Availability",
+        "value": 100.0
+      },
+      {
+        "name": "% Ping Packet Loss",
+        "value": null
+      },
+      {
+        "name": "Jitter (ms)",
+        "value": null
+      },
+      {
+        "name": "Test Time (ms)",
+        "value": 218.73
+      }
+    ]
+  },
+  {
+    "dateTime": "2025-05-23T06:04:42Z",
+    "dimensions": [
+      {
+        "id": 280165,
+        "name": "TracerouteICMPIPAddressSuccess"
+      },
+      {
+        "id": 335,
+        "name": "Las Vegas - Canary Linux - OL8 - ST"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (ms)",
+        "value": null
+      },
+      {
+        "name": "% Availability",
+        "value": 100.0
+      },
+      {
+        "name": "% Ping Packet Loss",
+        "value": null
+      },
+      {
+        "name": "Jitter (ms)",
+        "value": null
+      },
+      {
+        "name": "Test Time (ms)",
+        "value": 227.0
+      }
+    ]
+  },
+  {
+    "dateTime": "2025-05-23T06:04:42Z",
+    "dimensions": [
+      {
+        "id": 280165,
+        "name": "TracerouteICMPIPAddressSuccess"
+      },
+      {
+        "id": 335,
+        "name": "Las Vegas - Canary Linux - OL8 - ST"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (ms)",
+        "value": null
+      },
+      {
+        "name": "% Availability",
+        "value": 100.0
+      },
+      {
+        "name": "% Ping Packet Loss",
+        "value": null
+      },
+      {
+        "name": "Jitter (ms)",
+        "value": null
+      },
+      {
+        "name": "Test Time (ms)",
+        "value": 0.67
+      }
+    ]
+  },
+  {
+    "dateTime": "2025-05-23T06:04:42Z",
+    "dimensions": [
+      {
+        "id": 280165,
+        "name": "TracerouteICMPIPAddressSuccess"
+      },
+      {
+        "id": 335,
+        "name": "Las Vegas - Canary Linux - OL8 - ST"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (ms)",
+        "value": null
+      },
+      {
+        "name": "% Availability",
+        "value": 100.0
+      },
+      {
+        "name": "% Ping Packet Loss",
+        "value": null
+      },
+      {
+        "name": "Jitter (ms)",
+        "value": null
+      },
+      {
+        "name": "Test Time (ms)",
+        "value": 1.0
+      }
+    ]
+  },
+  {
+    "dateTime": "2025-05-23T06:04:42Z",
+    "dimensions": [
+      {
+        "id": 280165,
+        "name": "TracerouteICMPIPAddressSuccess"
+      },
+      {
+        "id": 335,
+        "name": "Las Vegas - Canary Linux - OL8 - ST"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (ms)",
+        "value": null
+      },
+      {
+        "name": "% Availability",
+        "value": 100.0
+      },
+      {
+        "name": "% Ping Packet Loss",
+        "value": null
+      },
+      {
+        "name": "Jitter (ms)",
+        "value": null
+      },
+      {
+        "name": "Test Time (ms)",
+        "value": 8.0
+      }
+    ]
+  },
+  {
+    "dateTime": "2025-05-23T06:04:42Z",
+    "dimensions": [
+      {
+        "id": 280165,
+        "name": "TracerouteICMPIPAddressSuccess"
+      },
+      {
+        "id": 335,
+        "name": "Las Vegas - Canary Linux - OL8 - ST"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (ms)",
+        "value": null
+      },
+      {
+        "name": "% Availability",
+        "value": 100.0
+      },
+      {
+        "name": "% Ping Packet Loss",
+        "value": null
+      },
+      {
+        "name": "Jitter (ms)",
+        "value": null
+      },
+      {
+        "name": "Test Time (ms)",
+        "value": 155.67
+      }
+    ]
+  },
+  {
+    "dateTime": "2025-05-23T06:04:42Z",
+    "dimensions": [
+      {
+        "id": 280165,
+        "name": "TracerouteICMPIPAddressSuccess"
+      },
+      {
+        "id": 335,
+        "name": "Las Vegas - Canary Linux - OL8 - ST"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (ms)",
+        "value": null
+      },
+      {
+        "name": "% Availability",
+        "value": 100.0
+      },
+      {
+        "name": "% Ping Packet Loss",
+        "value": null
+      },
+      {
+        "name": "Jitter (ms)",
+        "value": null
+      },
+      {
+        "name": "Test Time (ms)",
+        "value": 51.0
+      }
+    ]
+  },
+  {
+    "dateTime": "2025-05-23T06:04:42Z",
+    "dimensions": [
+      {
+        "id": 280165,
+        "name": "TracerouteICMPIPAddressSuccess"
+      },
+      {
+        "id": 335,
+        "name": "Las Vegas - Canary Linux - OL8 - ST"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (ms)",
+        "value": null
+      },
+      {
+        "name": "% Availability",
+        "value": 100.0
+      },
+      {
+        "name": "% Ping Packet Loss",
+        "value": null
+      },
+      {
+        "name": "Jitter (ms)",
+        "value": null
+      },
+      {
+        "name": "Test Time (ms)",
+        "value": 230.0
+      }
+    ]
+  },
+  {
+    "dateTime": "2025-05-23T06:04:42Z",
+    "dimensions": [
+      {
+        "id": 280165,
+        "name": "TracerouteICMPIPAddressSuccess"
+      },
+      {
+        "id": 335,
+        "name": "Las Vegas - Canary Linux - OL8 - ST"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (ms)",
+        "value": null
+      },
+      {
+        "name": "% Availability",
+        "value": 100.0
+      },
+      {
+        "name": "% Ping Packet Loss",
+        "value": null
+      },
+      {
+        "name": "Jitter (ms)",
+        "value": null
+      },
+      {
+        "name": "Test Time (ms)",
+        "value": 226.0
+      }
+    ]
+  },
+  {
+    "dateTime": "2025-05-23T06:04:42Z",
+    "dimensions": [
+      {
+        "id": 280165,
+        "name": "TracerouteICMPIPAddressSuccess"
+      },
+      {
+        "id": 335,
+        "name": "Las Vegas - Canary Linux - OL8 - ST"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (ms)",
+        "value": null
+      },
+      {
+        "name": "% Availability",
+        "value": 100.0
+      },
+      {
+        "name": "% Ping Packet Loss",
+        "value": null
+      },
+      {
+        "name": "Jitter (ms)",
+        "value": null
+      },
+      {
+        "name": "Test Time (ms)",
+        "value": 224.0
+      }
+    ]
+  },
+  {
+    "dateTime": "2025-05-23T06:04:42Z",
+    "dimensions": [
+      {
+        "id": 280165,
+        "name": "TracerouteICMPIPAddressSuccess"
+      },
+      {
+        "id": 335,
+        "name": "Las Vegas - Canary Linux - OL8 - ST"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (ms)",
+        "value": null
+      },
+      {
+        "name": "% Availability",
+        "value": 100.0
+      },
+      {
+        "name": "% Ping Packet Loss",
+        "value": null
+      },
+      {
+        "name": "Jitter (ms)",
+        "value": null
+      },
+      {
+        "name": "Test Time (ms)",
+        "value": 163.33
+      }
+    ]
+  },
+  {
+    "dateTime": "2025-05-23T06:04:42Z",
+    "dimensions": [
+      {
+        "id": 280165,
+        "name": "TracerouteICMPIPAddressSuccess"
+      },
+      {
+        "id": 335,
+        "name": "Las Vegas - Canary Linux - OL8 - ST"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (ms)",
+        "value": null
+      },
+      {
+        "name": "% Availability",
+        "value": 100.0
+      },
+      {
+        "name": "% Ping Packet Loss",
+        "value": null
+      },
+      {
+        "name": "Jitter (ms)",
+        "value": null
+      },
+      {
+        "name": "Test Time (ms)",
+        "value": 219.67
+      }
+    ]
+  },
+  {
+    "dateTime": "2025-05-23T06:04:42Z",
+    "dimensions": [
+      {
+        "id": 280165,
+        "name": "TracerouteICMPIPAddressSuccess"
+      },
+      {
+        "id": 335,
+        "name": "Las Vegas - Canary Linux - OL8 - ST"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (ms)",
+        "value": null
+      },
+      {
+        "name": "% Availability",
+        "value": 100.0
+      },
+      {
+        "name": "% Ping Packet Loss",
+        "value": null
+      },
+      {
+        "name": "Jitter (ms)",
+        "value": null
+      },
+      {
+        "name": "Test Time (ms)",
+        "value": 63.33
+      }
+    ]
+  },
+  {
+    "dateTime": "2025-05-23T06:04:42Z",
+    "dimensions": [
+      {
+        "id": 280165,
+        "name": "TracerouteICMPIPAddressSuccess"
+      },
+      {
+        "id": 335,
+        "name": "Las Vegas - Canary Linux - OL8 - ST"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (ms)",
+        "value": null
+      },
+      {
+        "name": "% Availability",
+        "value": 100.0
+      },
+      {
+        "name": "% Ping Packet Loss",
+        "value": null
+      },
+      {
+        "name": "Jitter (ms)",
+        "value": null
+      },
+      {
+        "name": "Test Time (ms)",
+        "value": 0.0
+      }
+    ]
+  },
+  {
+    "dateTime": "2025-05-23T06:04:42Z",
+    "dimensions": [
+      {
+        "id": 280165,
+        "name": "TracerouteICMPIPAddressSuccess"
+      },
+      {
+        "id": 335,
+        "name": "Las Vegas - Canary Linux - OL8 - ST"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (ms)",
+        "value": null
+      },
+      {
+        "name": "% Availability",
+        "value": 100.0
+      },
+      {
+        "name": "% Ping Packet Loss",
+        "value": null
+      },
+      {
+        "name": "Jitter (ms)",
+        "value": null
+      },
+      {
+        "name": "Test Time (ms)",
+        "value": 0.67
+      }
+    ]
+  },
+  {
+    "dateTime": "2025-05-23T06:04:42Z",
+    "dimensions": [
+      {
+        "id": 280165,
+        "name": "TracerouteICMPIPAddressSuccess"
+      },
+      {
+        "id": 335,
+        "name": "Las Vegas - Canary Linux - OL8 - ST"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (ms)",
+        "value": null
+      },
+      {
+        "name": "% Availability",
+        "value": null
+      },
+      {
+        "name": "% Ping Packet Loss",
+        "value": null
+      },
+      {
+        "name": "Jitter (ms)",
+        "value": null
+      },
+      {
+        "name": "Test Time (ms)",
+        "value": null
+      }
+    ]
+  },
+  {
+    "dateTime": "2025-05-23T06:09:44Z",
+    "dimensions": [
+      {
+        "id": 265010,
+        "name": "PingICMPFailure"
+      },
+      {
+        "id": 4265,
+        "name": "Boston - Verizon - ST"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "Ping Round Trip (

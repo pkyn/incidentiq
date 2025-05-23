@@ -1,35 +1,44 @@
 ```csv
-Test_id,Test_name,Node_id,Node_name,"Test Time (ms)","% Availability","% Ping Packet Loss"
-280603,TracerouteICMPHostFailure,1791,"Redhat8 Linux IPv6 Backbone",,0.0,
-264155,PingICMPSuccess,4265,"Boston - Verizon - ST",59.4,100.0,0.0
-282626,TracerouteICMPIpv6IPonIpv4node,335,"Las Vegas - Canary Linux - OL8 - ST",,0.0,
-265010,PingICMPFailure,335,"Las Vegas - Canary Linux - OL8 - ST",,0.0,
-282626,TracerouteICMPIpv6IPonIpv4node,1791,"Redhat8 Linux IPv6 Backbone",,0.0,
-280165,TracerouteICMPIPAddressSuccess,4710,"Seattle - Level3 - Redhat7 - ST",0.0,100.0,0.0
-280165,TracerouteICMPIPAddressSuccess,4710,"Seattle - Level3 - Redhat7 - ST",166.67,100.0,0.0
-280165,TracerouteICMPIPAddressSuccess,4710,"Seattle - Level3 - Redhat7 - ST",166.0,100.0,0.0
-280165,TracerouteICMPIPAddressSuccess,4710,"Seattle - Level3 - Redhat7 - ST",95.0,100.0,66.67
-280165,TracerouteICMPIPAddressSuccess,4710,"Seattle - Level3 - Redhat7 - ST",95.0,100.0,66.67
-280165,TracerouteICMPIPAddressSuccess,4710,"Seattle - Level3 - Redhat7 - ST",0.0,100.0,0.0
-280165,TracerouteICMPIPAddressSuccess,4710,"Seattle - Level3 - Redhat7 - ST",167.0,100.0,0.0
-280165,TracerouteICMPIPAddressSuccess,4710,"Seattle - Level3 - Redhat7 - ST",166.0,100.0,45.0
-280165,TracerouteICMPIPAddressSuccess,4710,"Seattle - Level3 - Redhat7 - ST",1.0,100.0,0.0
-280165,TracerouteICMPIPAddressSuccess,4710,"Seattle - Level3 - Redhat7 - ST",4.0,100.0,0.0
-280165,TracerouteICMPIPAddressSuccess,4710,"Seattle - Level3 - Redhat7 - ST",,100.0,100.0
-265010,PingICMPFailure,1791,"Redhat8 Linux IPv6 Backbone",,0.0,
-280603,TracerouteICMPHostFailure,4710,"Seattle - Level3 - Redhat7 - ST",,0.0,
-264155,PingICMPSuccess,335,"Las Vegas - Canary Linux - OL8 - ST",63.2,100.0,0.0
-280305,TracerouteICMPHostSuccess,4265,"Boston - Verizon - ST",0.0,100.0,0.0
-280305,TracerouteICMPHostSuccess,4265,"Boston - Verizon - ST",9.0,100.0,0.0
-280305,TracerouteICMPHostSuccess,4265,"Boston - Verizon - ST",19.67,100.0,0.0
-280305,TracerouteICMPHostSuccess,4265,"Boston - Verizon - ST",25.0,100.0,0.0
-280305,TracerouteICMPHostSuccess,4265,"Boston - Verizon - ST",9.0,100.0,0.0
-280305,TracerouteICMPHostSuccess,4265,"Boston - Verizon - ST",8.2,100.0,0.0
-280305,TracerouteICMPHostSuccess,4265,"Boston - Verizon - ST",4.0,100.0,0.0
-280305,TracerouteICMPHostSuccess,4265,"Boston - Verizon - ST",,100.0,100.0
-280599,TracerouteICMPIpAddressFailure,4265,"Boston - Verizon - ST",0.0,100.0,0.0
-280599,TracerouteICMPIpAddressFailure,4265,"Boston - Verizon - ST",,100.0,100.0
-280603,TracerouteICMPHostFailure,1791,"Redhat8 Linux IPv6 Backbone",,0.0,
-282626,TracerouteICMPIpv6IPonIpv4node,1791,"Redhat8 Linux IPv6 Backbone",,0.0,
-282626,TracerouteICMPIpv6IPonIpv4node,335,"Las Vegas - Canary Linux - OL8 - ST",,0.0,
+Time,Test,Node,"Test Time (ms)","% Availability","% Ping Packet Loss","Jitter (ms)","Ping Round Trip (ms)"
+20250523050211,PingICMPFailure,"Seattle - Level3 - Redhat7 - ST",,100.0,,,
+20250523051241,TracerouteICMPHostSuccess,"Las Vegas - Canary Linux - OL8 - ST",8.0,100.0,,,
+20250523051241,TracerouteICMPHostSuccess,"Las Vegas - Canary Linux - OL8 - ST",7.0,100.0,,,
+20250523051241,TracerouteICMPHostSuccess,"Las Vegas - Canary Linux - OL8 - ST",29.0,100.0,,,
+20250523051241,TracerouteICMPHostSuccess,"Las Vegas - Canary Linux - OL8 - ST",7.0,100.0,,,
+20250523051241,TracerouteICMPHostSuccess,"Las Vegas - Canary Linux - OL8 - ST",10.0,100.0,,,
+20250523051241,TracerouteICMPHostSuccess,"Las Vegas - Canary Linux - OL8 - ST",8.0,100.0,,,
+20250523051241,TracerouteICMPHostSuccess,"Las Vegas - Canary Linux - OL8 - ST",7.0,100.0,,,
+20250523051241,TracerouteICMPHostSuccess,"Las Vegas - Canary Linux - OL8 - ST",7.5,100.0,,,
+20250523051940,TracerouteICMPIPAddressSuccess,"Boston - Verizon - ST",20.0,100.0,,,
+20250523051940,TracerouteICMPIPAddressSuccess,"Boston - Verizon - ST",235.0,100.0,,,
+20250523051940,TracerouteICMPIPAddressSuccess,"Boston - Verizon - ST",246.0,100.0,,,
+20250523051940,TracerouteICMPIPAddressSuccess,"Boston - Verizon - ST",241.0,100.0,,,
+20250523051940,TracerouteICMPIPAddressSuccess,"Boston - Verizon - ST",247.0,100.0,,,
+20250523051940,TracerouteICMPIPAddressSuccess,"Boston - Verizon - ST",20.0,100.0,,,
+20250523051940,TracerouteICMPIPAddressSuccess,"Boston - Verizon - ST",232.5,100.0,,,
+20250523051940,TracerouteICMPIPAddressSuccess,"Boston - Verizon - ST",236.0,100.0,,,
+20250523051940,TracerouteICMPIPAddressSuccess,"Boston - Verizon - ST",233.0,100.0,,,
+20250523051940,TracerouteICMPIPAddressSuccess,"Boston - Verizon - ST",,0.0,100.0,,
+20250523052341,TracerouteICMPIpAddressFailure,"Las Vegas - Canary Linux - OL8 - ST",3.0,100.0,,,
+20250523052341,TracerouteICMPIpAddressFailure,"Las Vegas - Canary Linux - OL8 - ST",0.0,100.0,,,
+20250523052341,TracerouteICMPIpAddressFailure,"Las Vegas - Canary Linux - OL8 - ST",1.0,100.0,,,
+20250523052341,TracerouteICMPIpAddressFailure,"Las Vegas - Canary Linux - OL8 - ST",2.0,100.0,,,
+20250523052341,TracerouteICMPIpAddressFailure,"Las Vegas - Canary Linux - OL8 - ST",1.0,100.0,,,
+20250523052341,TracerouteICMPIpAddressFailure,"Las Vegas - Canary Linux - OL8 - ST",0.33,100.0,,,
+20250523052341,TracerouteICMPIpAddressFailure,"Las Vegas - Canary Linux - OL8 - ST",,0.0,100.0,,
+20250523053412,PingICMPSuccess,"Seattle - Level3 - Redhat7 - ST",36.0,100.0,,,
+20250523053513,TracerouteICMPHostSuccess,Redhat8 Linux IPv6 Backbone,5.0,100.0,,,
+20250523053513,TracerouteICMPHostSuccess,Redhat8 Linux IPv6 Backbone,6.67,100.0,,,
+20250523053513,TracerouteICMPHostSuccess,Redhat8 Linux IPv6 Backbone,0.0,100.0,,,
+20250523053513,TracerouteICMPHostSuccess,Redhat8 Linux IPv6 Backbone,5.0,100.0,,,
+20250523053513,TracerouteICMPHostSuccess,Redhat8 Linux IPv6 Backbone,6.0,100.0,,,
+20250523053513,TracerouteICMPHostSuccess,Redhat8 Linux IPv6 Backbone,5.0,100.0,,,
+20250523053513,TracerouteICMPHostSuccess,Redhat8 Linux IPv6 Backbone,1.0,100.0,,,
+20250523053513,TracerouteICMPHostSuccess,Redhat8 Linux IPv6 Backbone,1.0,100.0,,,
+20250523053513,TracerouteICMPHostSuccess,Redhat8 Linux IPv6 Backbone,0.0,100.0,,,
+20250523053513,TracerouteICMPHostSuccess,Redhat8 Linux IPv6 Backbone,0.67,100.0,,,
+20250523054614,TracerouteICMPIpAddressFailure,Redhat8 Linux IPv6 Backbone,0.0,100.0,,,
+20250523054614,TracerouteICMPIpAddressFailure,Redhat8 Linux IPv6 Backbone,0.67,100.0,,,
+20250523054614,TracerouteICMPIpAddressFailure,Redhat8 Linux IPv6 Backbone,1.0,100.0,,,
+20250523054614,TracerouteICMPIpAddressFailure,Redhat8 Linux IPv6 Backbone,,0.0,100.0,,
 ```

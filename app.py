@@ -41,8 +41,7 @@ def train_ai_model(data):
     #metrics, dimensions id and name where id is 16 from responseItems then dimensions id and name where id is 16 or 1 and values from items. include only Test Time (ms), % Ping Packet Loss, % Availability,"
     #"Jitter, Time to Leave metrics in the result and result should be formatted to a csv file which contains only items
 
-    prompt = "your are an expert in analyzing the data and extracting fields from a jason. for the given json data "+ json.dumps(data) +" extract dimensions id and name where id is 16 or 1 and values from items. include only Test Time (ms), % Availability, % Ping Packet Loss,"
-    "Jitter, Time to Leave metrics in the result and result should be stored to a csv file" 
+    prompt = "your are an expert in analyzing the data and extracting fields from a jason. for the given json data "+ json.dumps(data) +" extract dimensions, metrics and values from items. include dimensions id and name where id is 16 or 1. metrics array has the metric name and values arrays has its value. Include only following metrics in the result: Test Time (ms), % Availability, % Ping Packet Loss, Jitter (ms), Ping Round Trip (ms)"
     client = genai.Client(api_key=os.getenv("SECRET_KEY"))
     # Generate content using the model
     try:
@@ -56,6 +55,8 @@ def train_ai_model(data):
             )
         )
 
+        print(response.text)
+
         response2 = client.models.generate_content(
             model='gemini-2.0-flash-001',
             contents='high',
@@ -66,12 +67,16 @@ def train_ai_model(data):
             )
         )
 
-        jsonl_file = "summarized_data.csv"
+        csv_file = "summarized_data4.csv"
+        jsonl_file = "summarized_data_json.jsonl"
 
-        with open(jsonl_file, 'w') as f:
+        with open(csv_file, 'w') as f:
             #   f.write(response.text + "\n")    
               f.write(response2.text + "\n")         
-        print(f"Data has been fetched, summarized, and saved to {jsonl_file}.")
+        with open(jsonl_file, 'w') as f:
+              f.write(response.text + "\n")
+
+        print(f"Data has been fetched, summarized, and saved to {csv_file}.")
     except Exception as e:
         print(f"An error occurred: {e}")
 
