@@ -37,7 +37,12 @@ except requests.exceptions.RequestException as e:
 
 def train_ai_model(data):
     # Initialize the Generative AI model
-    prompt = "your are am expert in analyzing the data and extracting fields from a jason object. for the given json data "+ json.dumps(data) +" extract syntheticMetrics and syntheticMetrics values from detail and format it into a CSV structure" 
+    # prompt = "your are an expert in analyzing the data and extracting fields from a jason object. for the given json data "+ json.dumps(data) +" extract test dimension, syntheticMetrics and syntheticMetrics values from detail and format it into a CSV structure"
+    #metrics, dimensions id and name where id is 16 from responseItems then dimensions id and name where id is 16 or 1 and values from items. include only Test Time (ms), % Ping Packet Loss, % Availability,"
+    #"Jitter, Time to Leave metrics in the result and result should be formatted to a csv file which contains only items
+
+    prompt = "your are an expert in analyzing the data and extracting fields from a jason. for the given json data "+ json.dumps(data) +" extract dimensions id and name where id is 16 or 1 and values from items. include only Test Time (ms), % Availability, % Ping Packet Loss,"
+    "Jitter, Time to Leave metrics in the result and result should be stored to a csv file" 
     client = genai.Client(api_key=os.getenv("SECRET_KEY"))
     # Generate content using the model
     try:
@@ -46,7 +51,7 @@ def train_ai_model(data):
             contents='high',
             config=types.GenerateContentConfig(
                 system_instruction=prompt,
-                max_output_tokens=1024,
+                #max_output_tokens=1024,
                 temperature=0.3,
             )
         )
@@ -55,8 +60,8 @@ def train_ai_model(data):
             model='gemini-2.0-flash-001',
             contents='high',
             config=types.GenerateContentConfig(
-                system_instruction="your are am expert in analyzing the data and extracting fields from a jason object. for the given json data "+ json.dumps(data) +" extract errorDetail dimension type name and dimension name and format it into a CSV structure",
-                max_output_tokens=1024,
+                system_instruction="extract"+ json.dumps(response.text) +" into a CSV structure",
+                #max_output_tokens=1024,
                 temperature=0.3,
             )
         )
@@ -64,7 +69,7 @@ def train_ai_model(data):
         jsonl_file = "summarized_data.csv"
 
         with open(jsonl_file, 'w') as f:
-              f.write(response.text + "\n")    
+            #   f.write(response.text + "\n")    
               f.write(response2.text + "\n")         
         print(f"Data has been fetched, summarized, and saved to {jsonl_file}.")
     except Exception as e:
